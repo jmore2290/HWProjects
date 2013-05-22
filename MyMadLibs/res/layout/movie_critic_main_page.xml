@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Movie Review Search"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Use either the search bar"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="or find the movie using the"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Alphabetized List"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </SearchView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#cd5c5c"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="316dp" >
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
