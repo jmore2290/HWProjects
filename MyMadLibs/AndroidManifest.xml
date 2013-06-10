@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="MadFlashActivity"
+            android:name="MadFlashActivity2"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity android:name="com.muirconsult.mymadlibs.MainMadLibActivity"> </activity>
+        <activity android:name="com.muirconsult.mymadlibs.MovieCriticActivity"> </activity>
+        <activity android:name="com.muirconsult.mymadlibs.SongWriterActivity"></activity>
+        <activity android:name="com.muirconsult.mymadlibs.NovelistActivity"></activity>
+        <activity android:name="com.muirhconsult.mymadlibs.PoliticalSpeechActivity"></activity>
+        <activity android:name="com.muirconsult.mymadlibs.MovieCriticListSearch"></activity>
+        <activity android:name="com.muirconsult.mymadlibs.MakeYourOwnActivity"></activity>
+        <activity android:name="com.muirconsult.mymadlibs.FormActivity"></activity>
     </application>
 
 </manifest>

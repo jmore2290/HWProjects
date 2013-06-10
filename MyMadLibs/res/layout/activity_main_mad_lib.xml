@@ -15,7 +15,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/movieId"
             android:layout_width="266dp"
             android:layout_height="wrap_content"
             android:text="My Mad Libs"
@@ -44,28 +44,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Movie Critic" />
+            android:text="Movie Critic" 
+            android:onClick="onClickMovieCritic"/>
 
         <Button
             android:id="@+id/swriter_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Song Writer" />
+            android:text="Song Writer" 
+            android:onClick="onClickSongWriter"/>
 
         <Button
             android:id="@+id/polswriter_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Political Speech Writer" />
+            android:text="Political Speech Writer" 
+            android:onClick="onClickPoliticalSpeech"/>
 
         <Button
             android:id="@+id/novelist_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Novelist" />
+            android:text="Novelist" 
+            android:onClick="onClickNovelist"/>
 
         <Button
             android:id="@+id/makeur_button"
